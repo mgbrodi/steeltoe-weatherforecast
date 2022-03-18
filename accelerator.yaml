@@ -1,6 +1,6 @@
 accelerator:
-  displayName: Steeltoe Weather Forecast
-  description: A Steeltoe sample accelerator
+  displayName: Steeltoe Weather Forecast Sample
+  description: A Steeltoe sample accelerator to showcase .NET in TAP
   iconUrl: https://raw.githubusercontent.com/sample-accelerators/icons/master/icon-steeltoe.png
   tags:
   - dotnet
