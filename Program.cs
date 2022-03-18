@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Steeltoe.Extensions.Logging;
 
-namespace newyorkWeather
+namespace Sample
 {
     public class Program
     {
