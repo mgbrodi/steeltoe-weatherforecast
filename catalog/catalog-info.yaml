@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: weatherforecast-steeltoe
+  name: Sample
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=weatherforecast-steeltoe"
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=Sample"
 spec:
   type: service
   lifecycle: experimental
