@@ -7,7 +7,6 @@ accelerator:
   - c#
   - steeltoe
   - tanzu
-  - cloud-foundry
 
   options:
   - name: applicationName
