@@ -16,6 +16,11 @@ accelerator:
     inputType: text
     defaultValue: Sample
     required: true
+  - name: registryPrefix
+    inputType: text
+    label: Prefix for the container image registry
+    defaultValue: your-registry.io/project
+    required: true
 
 engine:
   merge:
@@ -26,6 +31,10 @@ engine:
       substitutions:
       - text: Sample
         with: "#applicationName"
+    - type: ReplaceText
+      substitutions:
+      - text: your-registry.io/project
+        with: "#registryPrefix"
   - include: [ "Sample.csproj" ]
     chain:
     - type: RewritePath
